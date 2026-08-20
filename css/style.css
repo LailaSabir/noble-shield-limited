@@ -219,7 +219,13 @@ p {
 	border-radius: 4px;
 }
 .nav__logo-text {
-	display: none;
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: var(--white);
+	letter-spacing: 0.3px;
+	white-space: nowrap;
 }
 .nav__links {
 	display: flex;
@@ -1409,6 +1415,12 @@ p {
 		padding: 0 20px;
 		height: 70px;
 	}
+	.nav__logo img {
+		height: 44px;
+	}
+	.nav__logo-text {
+		font-size: 0.95rem;
+	}
 	.page-hero {
 		padding: 110px 0 60px;
 	}
@@ -1537,6 +1549,9 @@ p {
 @media (max-width: 480px) {
 	.stats__grid {
 		grid-template-columns: 1fr;
+	}
+	.nav__logo-text {
+		display: none;
 	}
 }
 @media (max-width: 768px) {
