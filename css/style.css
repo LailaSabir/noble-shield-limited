@@ -1551,7 +1551,7 @@ p {
 		grid-template-columns: 1fr;
 	}
 	.nav__logo-text {
-		display: none;
+		font-size: 0.8rem;
 	}
 }
 @media (max-width: 768px) {
